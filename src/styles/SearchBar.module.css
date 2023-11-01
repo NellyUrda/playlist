@@ -1,0 +1,27 @@
+.searchDiv{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 20px;
+
+}
+
+
+.searchInput{
+    display: block;
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchButton{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: #fff;
+    background-color: #27415C;
+    height:40px ;
+    width: 120px ;
+    border-radius: 15px;
+   
+}

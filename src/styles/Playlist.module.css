@@ -1,0 +1,42 @@
+/* Container that displays the Playlist*/
+.playlistDiv{
+   border:2px solid black;
+   border-radius:5px;
+   margin-left: 30px;
+   margin-top: 30px;
+   background-color:#27415C ;
+   min-height: 350px;
+}
+
+.h2{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.liSong{
+    color : #A2C2E1;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+audio{
+    width: 300px;
+    height: 30px;
+}
+
+/* the application on smaller screens*/
+@media only screen and (max-width:760px){
+    .h2{
+     font-size: 1.5rem;
+    }
+    
+    .liSong{
+        font-size: 0.8rem;
+       }
+       
+    /*nested element */
+    ol audio{
+     width: 75%;
+    }
+ }
