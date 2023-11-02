@@ -74,13 +74,8 @@ function App() {
  
   // on click, the list of songs resulted is rendered
   function handleClickSearchButton(e){
-      if(searchInput===""){
-       alert(" Input the artist name!");
-      }else{
         e.preventDefault();
-        showSongs();
-      }
-      
+        showSongs(); 
   }
   
   // function updates the state of songPlaylist
