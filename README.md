@@ -1,3 +1,15 @@
+This is a web aplication using ReactJs. The user search the songs by artist name. After they are displayed, the user can make his own playlist, based on the results.
+I fetched the list of songs from [rapidapi.com](https://deezerdevs-deezer.p.rapidapi.com) page.
+
+BEFORE SEARCH
+![playlist_img1](https://github.com/NellyUrda/playlist/assets/116946235/90c078d4-cf56-4d7a-ae3a-fae16ef8e43b)
+
+AFTER SEARCH
+![playlist_img2](https://github.com/NellyUrda/playlist/assets/116946235/4173676a-1d7c-4a3f-81af-96b2cdc25ae9)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
